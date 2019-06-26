@@ -22,6 +22,15 @@ def tip_amount(total, tip):
     return result
 
 
+
+#non function
 tip_amount = tip_amount(total_bill, tip_percentage)
 print(tip_amount)
 
+
+
+total_amount = float(input("Enter total amount: "))
+tip = float(input("Enter tip"))
+
+total = tip*.01 * total_amount
+print(total)
